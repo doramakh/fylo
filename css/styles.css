@@ -43,17 +43,43 @@ img{
   height: auto;
 }
 
+/* Get Started Button */
+
+.get-started-btn{
+  display: inline-block;
+  width: 240px;
+  padding: 16px 0;
+  margin-top: 32px;
+  background: linear-gradient(152.13deg, #63E1D9 -150.21%, #34A0CD 170.03%);
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+  border-radius: 24px;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  white-space: nowrap;
+  text-align: center;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.get-started-btn:hover{
+  opacity: 0.8;
+}
+
+.get-started-btn:active{
+  opacity: 0.4;
+}
+
 /* Site Nav */
 
 .site-nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 370px;
   padding: 0 20px;
   margin-top: 24px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .logo{
@@ -103,3 +129,28 @@ img{
 .nav-link:active{
   color: #4389a7;
 }
+
+/* Site Header */
+
+.site-header{
+  margin-top: 48px;
+  text-align: center;
+}
+
+.header-img{
+  width: 304px;
+  height: 224px;
+}
+
+.header-heading{
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 33px;
+}
+
+.header-text{
+  margin-top: 15px;
+}
+
