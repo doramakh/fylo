@@ -56,7 +56,7 @@ img{
   font-size: 14px;
   line-height: 16px;
   color: #FFFFFF;
-  background-color: #63E1D9;
+  background-color: #34A0CD;
   background: linear-gradient(152.13deg, #63E1D9 -150.21%, #34A0CD 170.03%);
   box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
   border-radius: 24px;
@@ -394,6 +394,101 @@ img{
 /* Site footer */
 
 .site-footer{
-  padding: 50px 0 20px 0;
+  padding: 50px 0 6px 0;
   background-color: #0B1524;
+}
+
+.contacts{
+  display: flex;
+  flex-direction: column;
+  padding: 16px 18px;
+  margin-top: 24px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.contacts p{
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.tel-link,
+.email-link{
+  display: block;
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.tel-link:hover,
+.email-link:hover{
+  color: #34A0CD;
+}
+
+.tel-link:active,
+.email-link:active{
+  opacity: 0.6;
+}
+
+.pages-list{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.pages-list-first{
+  margin-top: 40px;
+}
+
+.pages-list-second{
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.pages-link{
+  display: inline-block;
+  padding: 8px;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #fff;
+  text-decoration: none;
+}
+
+.pages-link:hover{
+  color: #34A0CD;
+}
+
+.pages-link:active{
+  opacity: 0.6;
+}
+
+.socails{
+  display: flex;
+  width: 103px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 32px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.socials-link{
+  display: inline-block;
+  transition: opacity 0.3s ease;
+}
+
+.socials-link:hover{
+  opacity: 0.6;
+}
+
+.socials-link:active{
+  opacity: 0.4;
 }
